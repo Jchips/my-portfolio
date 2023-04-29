@@ -49,7 +49,6 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	// background-color: #e9d5a1;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/images/jaye-hero.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -72,7 +71,6 @@ header .nav {
 header img,
 header svg {
 	color: $header-text;
-	// color: #eee;
 }
 
 .github-corner:hover .octo-arm {
@@ -117,7 +115,6 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	// color: #353239;
 	color: #eee;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
@@ -253,10 +250,9 @@ header h1 {
 	align-items: center;
 }
 
-#resume {
+// #resume {
 	// background: $theme-purple;
-	
-}
+// }
 
 .experience-icon {
 	font-size: 300%;
@@ -380,12 +376,7 @@ header h1 {
 }
 
 #portfolio {
-	// background: #efe1bd;
 	// background: $theme-purple;
-	// background-image: url("../public/images/bg.jpeg");
-	// background-position: bottom 20% left 50%;
-	// background-size: cover;
-	// background-attachment: fixed;
 	padding-bottom: 5%;
 }
 

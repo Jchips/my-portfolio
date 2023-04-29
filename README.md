@@ -1,5 +1,7 @@
 # Jelani R. Portfolio
 
+My portfolio to share my projects, goals, and work experience.
+
 ## Author: Jelani R
 
 Live site: <https://jelanir.netlify.app/>
