@@ -87,37 +87,27 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Home Depot",
+        "title": "Freight Associate",
+        "years": "06.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Stocker"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Organizational skills",
+          "Attention to detail"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Allied Universal Event Services",
+        "title": "Event staff",
+        "years": "06.2019 - 08.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Customer service"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Social skills",
+          "Time Management"
         ]
       }
     ]

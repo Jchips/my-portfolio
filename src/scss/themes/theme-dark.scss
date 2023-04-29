@@ -2,6 +2,14 @@ body[data-theme="dark"] {
 
    @import '/src/scss/dark-slider.scss';
 
+   body {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/bg.jpeg");
+      background-position: bottom 20% left 50%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+   }
+
    .slider-tab {
       background-color: #8C8C8C;
    }
@@ -11,7 +19,8 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      // color: #3C342C;
+      color: #9a9a9a;
       opacity: 0.8;
    }
 
@@ -35,7 +44,7 @@ body[data-theme="dark"] {
    header {
       background-color: #494949;
       h1 {
-         color: white;
+         color: #eee;
       }
    }
 
@@ -54,7 +63,7 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #5b5b5b;
+      // background: #5b5b5b;
       .section-title {
          color: white !important;
       }
@@ -68,7 +77,7 @@ body[data-theme="dark"] {
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      // background: #5b5b5b;
       .section-title {
          color: white !important;
       }
@@ -83,7 +92,7 @@ body[data-theme="dark"] {
       }
 
       .vertical-timeline-element-date {
-         color: white;
+         color: black;
       }
 
       .vertical-timeline-element-icon {

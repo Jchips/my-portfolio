@@ -2,11 +2,22 @@
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+$theme-purple: #7814aa;
+$header-text: #9a9a9a;
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/images/bg.jpeg");
+	background-position: bottom 20% left 50%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .aligner {
@@ -31,19 +42,20 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	height: 500px !important;
+	min-height: 350px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	// background-color: #e9d5a1;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/images/jaye-hero.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
+	padding-top: 10px;
 	padding-bottom: 0;
 }
 
@@ -51,6 +63,16 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+
+	& a {
+		color: rgb(210, 141, 233);
+	}
+}
+
+header img,
+header svg {
+	color: $header-text;
+	// color: #eee;
 }
 
 .github-corner:hover .octo-arm {
@@ -95,7 +117,8 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	// color: #353239;
+	color: #eee;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -231,7 +254,8 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	// background: $theme-purple;
+	
 }
 
 .experience-icon {
@@ -265,6 +289,9 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	// background-color: #eee;
+	background-image: linear-gradient(to right,#afaaff, #f7ccff);
+	border-radius: 10px;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -353,7 +380,12 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	// background: #efe1bd;
+	// background: $theme-purple;
+	// background-image: url("../public/images/bg.jpeg");
+	// background-position: bottom 20% left 50%;
+	// background-size: cover;
+	// background-attachment: fixed;
 	padding-bottom: 5%;
 }
 
