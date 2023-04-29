@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Jelani R.. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Jelani R. I'm working with newest front-end frameworks like React and Vue. I am an aspiring software developer. I always had an interest in technology and began to teach myself some basic programming when I was 13. After high school, I knew I wanted to continue coding. I enjoyed creating my own CS projects and wanted more tools in my arsenal to make bigger, better applications. I pursued computer science at both the University of Washington and the University of Texas but found college was not for me at the time, so I'm taking a software development certification bootcamp. Some of my greatest strengths are my attention to detail, thinking critically, problem solving, listening, and being reliable. I am also very self-motivated and have a lot of perseverance. In the future, I envision myself full-stack web developing and publishing mobile applications that can be released both in the Google Play store and the App Store. Maybe one day also assisting young women of color in their learning of computer science to help close the gender and diversity gap in the field and inspire more coders. 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,42 +11,23 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "2023 Calendar",
+        "startDate": "2023",
+        "description": "A interactive calendar and todo list that assists users in being on time for meetings, boost their productivity, and helps them achieve their goals. Users can add and remove events and tasks from the calendar and todo list, and customize the calendar background. I was responsible for most of the JavaScript.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/calendar/calendar1.png",
+          "images/portfolio/calendar/calendar2.png",
+          "images/portfolio/calendar/calendar3.png"
         ],
-        "url": "",
+        "url": "https://github.com/calendar-devs/calendar-app",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,26 +36,51 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Jphones",
+        "startDate": "2023",
+        "description": "Personal project for phone shopping. I am a phone geek so I created a site for phone shoppers to find the best phone for them.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/jphones/p1.jpg",
+          "images/portfolio/jphones/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Jchips/jphones/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap 5"
+          }
+        ]
+      },
+      {
+        "title": "Black Artists",
+        "startDate": "2023",
+        "description": "Personal project for my love of dance. There are many amazing dancers out there, so I decided to make a website all about the popular Gen Z dancers that inspired me to dance when I was young. This website is for other dance fanatics like me who want to learn more about their favorite Gen Z dancers.",
+        "images": [
+          "images/portfolio/black-artists/black-artists-site1.png",
+          "images/portfolio/black-artists/black-artists-site2.png",
+          "images/portfolio/black-artists/black-artists-site3.png"
+        ],
+        "url": "https://github.com/Jchips/wdc-final-project",
+        "technologies": [
+          {
+            "class": "devicon-vuejs-plain",
+            "name": "Vue"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "SCSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap 5"
           }
         ]
       }
