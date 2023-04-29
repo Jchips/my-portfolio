@@ -1,3 +1,5 @@
-# Modify this portfolio
+# Jelani R. Portfolio
 
-Make it your own! 
+## Author: Jelani R
+
+Live site: <https://jelanir.netlify.app/>
