@@ -62,7 +62,7 @@
       {
         "title": "Black Artists",
         "startDate": "2023",
-        "description": "Personal project for my love of dance. There are many amazing dancers out there, so I decided to make a website all about the popular Gen Z dancers that inspired me to dance when I was young. This website is for other dance fanatics like me who want to learn more about their favorite Gen Z dancers.",
+        "description": "Website to promote equity and diversity in music artists this Black History Month 2023 by highlighting Black artists and educating people on the origins of some of the current most popular music genres. Built with Nuxt.js, HTML, SCSS, CSS, JavaScript. Uses Spotify API by Glavier.",
         "images": [
           "images/portfolio/black-artists/black-artists-site1.png",
           "images/portfolio/black-artists/black-artists-site2.png",
@@ -71,8 +71,8 @@
         "url": "https://github.com/Jchips/wdc-final-project",
         "technologies": [
           {
-            "class": "devicon-vuejs-plain",
-            "name": "Vue"
+            "class": "devicon-nuxtjs-plain",
+            "name": "Nuxt"
           },
           {
             "class": "devicon-sass-plain",
