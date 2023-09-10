@@ -54,29 +54,41 @@
             "name": "JavaScript"
           },
           {
+            "class": "devicon-sass-plain",
+            "name": "SCSS"
+          },
+          {
             "class": "devicon-bootstrap-plain",
             "name": "Bootstrap 5"
           }
         ]
       },
       {
-        "title": "Black Artists",
+        "title": "Bee Social",
         "startDate": "2023",
-        "description": "Website to promote equity and diversity in music artists this Black History Month 2023 by highlighting Black artists and educating people on the origins of some of the current most popular music genres. Built with Nuxt.js, HTML, SCSS, CSS, JavaScript. Uses Spotify API by Glavier.",
+        "description": "Social site where users can login/logout and share written posts with other users. Helps people become more social.",
         "images": [
-          "images/portfolio/black-artists/black-artists-site1.png",
-          "images/portfolio/black-artists/black-artists-site2.png",
-          "images/portfolio/black-artists/black-artists-site3.png"
+          "images/portfolio/bee-social/social-posts2.png",
+          "images/portfolio/bee-social/social-posts3.png",
+          "images/portfolio/bee-social/social-posts4.png"
         ],
-        "url": "https://github.com/Jchips/wdc-final-project",
+        "url": "https://github.com/Jchips/social-posts-app",
         "technologies": [
           {
-            "class": "devicon-nuxtjs-plain",
-            "name": "Nuxt"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
             "class": "devicon-sass-plain",
             "name": "SCSS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
           },
           {
             "class": "devicon-bootstrap-plain",
